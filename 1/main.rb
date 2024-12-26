@@ -8,7 +8,7 @@ l1 = []
 l2 = []
 sim_score = 0
 
-File.open("../inputs/historical_lists.txt") do |file|
+File.open("historical_lists.txt") do |file|
   file.each_line do |line|
     n1, n2 = line.split.map(&:to_i)
     l1 << n1
